@@ -9,8 +9,8 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        ArrayList<Integer> userNumbers = new ArrayList<Integer>();
-        ArrayList<Integer> reversedNumbers = new ArrayList<Integer>();
+        ArrayList<Integer> userNumbers = new ArrayList<>();
+        ArrayList<Integer> reversedNumbers = new ArrayList<>();
 
         userNumbers = getNumbers();
         reversedNumbers = reverseArray(userNumbers);
